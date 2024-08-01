@@ -29,7 +29,7 @@ header {
   grid-column: 2/-1;
 }
 main {
-  background-color: #3b6061;
+  background-color: #ddc173;
   grid-column: 2/-1;
 }
 .logo > img {
@@ -74,7 +74,7 @@ main {
 header {
   display: grid;
   grid-template-columns: 6fr 4fr;
-  grid-template-rows: repeat(2, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 130px);
   --margin-left-header: 4rem;
 }
 .search > img {
@@ -154,4 +154,76 @@ header {
   font-weight: 500;
   font-size: 3rem;
   margin-right: 15rem;
+}
+.box {
+  width: 97%;
+  height: 100%;
+  background-color: #ddc173;
+  display: flex;
+  gap: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects {
+  background-color: #ddc173;
+  height: 100%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 1fr);
+  grid-template-rows: 20px repeat(2, 1fr);
+  gap: 10px;
+}
+.card {
+  background-color: orangered;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.baby-card {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.vert-box {
+  background-color: greenyellow;
+  height: 100%;
+  width: 30%;
+}
+.grid-text {
+  grid-column: 1/-1;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+  font-family: Poppins;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 16px;
+  gap: 2rem;
+  margin-bottom: 16px;
+  margin-top: auto;
+}
+.card-icon {
+  width: 25px;
+  height: 25px;
+}
+.card-icon:hover {
+  cursor: pointer;
+}
+.card-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  font-family: Poppins;
+  margin-bottom: 16px;
+}
+.card-text {
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  margin-top: 16px;
 }
