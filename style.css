@@ -177,10 +177,11 @@ main {
   gap: 10px;
 }
 .card {
-  background-color: orangered;
+  background-color: #5f6f65d1;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .baby-card {
@@ -188,7 +189,7 @@ main {
   padding-right: 20px;
 }
 .vert-box {
-  background-color: greenyellow;
+  background-color: #ddc173;
   height: 100%;
   width: 30%;
 }
@@ -226,4 +227,89 @@ main {
     "Lucida Sans", Arial, sans-serif;
   font-weight: 400;
   margin-top: 16px;
+}
+.vert-text {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Poppins;
+}
+.vert-box {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.vert-smbox {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+}
+.announcements {
+  margin-bottom: 15px;
+}
+.ann-smbox {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item {
+  padding: 0 10px;
+}
+.item > h2 {
+  font-family: Poppins;
+}
+.item > p {
+  font-size: 1.2rem;
+  font-family: Poppins;
+}
+.item + .item {
+  border-top: 1px solid #0b0808;
+}
+.trend-pfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.trend-box {
+  display: flex;
+  font-family: Poppins;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tag {
+  font-size: 1.5rem;
+  font-weight: 665;
+  margin: 0;
+}
+.gray {
+  font-size: 1.3rem;
+  color: rgb(79, 77, 77);
+  margin: 0;
+}
+.tag:hover {
+  cursor: pointer;
+}
+.group2 {
+  margin: 4rem;
+  margin-left: auto;
+}
+.group1 {
+  margin: 4rem;
+}
+.trend-card > img {
+  margin-top: 16px;
+}
+.trend-card > img:hover,
+.card-title:hover,
+.links > img:hover,
+.notif:hover,
+.logo > img:hover,
+.group-1 > img:hover,
+.group-1 > p:hover {
+  cursor: pointer;
 }
